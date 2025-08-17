@@ -1,6 +1,6 @@
-# 💡 Story Sundays: A Learning Series
+# 💡 Story Time: A Learning Series
 
-Welcome to **Story Sundays**, a series dedicated to demystifying the architecture behind the world's most impressive technology. Each week, we dive deep into a core system design problem, explore the trade-offs of popular solutions, and provide practical code examples.
+Welcome to **Story Time**, a series dedicated to demystifying the architecture behind the world's most impressive technology. Each week, we dive deep into a core system design problem, explore the trade-offs of popular solutions, and provide practical code examples.
 
 Whether you're preparing for an interview or just curious about how things work at scale, this series is for you.
 

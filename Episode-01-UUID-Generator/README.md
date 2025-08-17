@@ -63,24 +63,22 @@ You can find the full, runnable Python code in the `uuid_generator.py` file in t
 
 Here are links that provide more details on the enhancements and further reading for a Snowflake-like UUID generator.
 
----
-
 ### Enhancements
 
 * **Clock Synchronization (NTP)**: [This article by Cloudflare](https://blog.cloudflare.com/how-we-built-our-ntp-service/) provides a great overview of how network time protocol (NTP) works and its importance for distributed systems, including discussions on clock drift.
 * **Lexicographical Sorting (ULID/NanoID)**:
-    * **ULID:** The official [ULID repository on GitHub](https://github.com/ulid/spec) contains the specification and rationale behind ULID. It clearly explains how it solves the lexicographical sorting problem while maintaining uniqueness.
+    * **ULID:** The official [ULID repository on GitHub](https://github.com/ulid/javascript) contains the specification and rationale behind ULID. It clearly explains how it solves the lexicographical sorting problem while maintaining uniqueness.
     * **NanoID:** The [NanoID repository](https://github.com/ai/nanoid) explains its approach, focusing on security and URL-friendliness, which are key benefits of this type of ID.
-* **Monitoring**: While not specific to UUIDs, [this article on monitoring distributed systems](https://www.oreilly.com/library/view/distributed-systems-with/9781492042735/ch04.html) by O'Reilly provides an excellent foundation for understanding what metrics to track (like latency, error rates, and resource utilization) in a system like the one you've designed.
+* **Monitoring**: While not specific to UUIDs, ["Monitoring Distributed Systems" from Google SRE](https://sre.google/sre-book/monitoring-distributed-systems/) - The definitive guide to the "Four Golden Signals" (latency, traffic, errors, saturation) provides an excellent foundation for understanding what metrics to track (like latency, error rates, and resource utilization) in a system like the one you've designed.
 
 ---
 
 ### Further Reading
 
-* **Twitter's Original Snowflake Paper**: The [blog post announcing Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake-a-64-bit-unique-id-generator) is the definitive source and a must-read for anyone interested in this topic. It details the problem Twitter faced and their design choices.
-* **UUID.tools**: This is a practical, interactive [web tool](https://uuid.tools/) that allows you to generate and decode different types of UUIDs. It's a great way to visually understand the bit-level composition of various ID formats.
+* **Twitter's Original Snowflake Paper**: The [blog post announcing Snowflake](https://blog.x.com/engineering/en_us/a/2010/announcing-snowflake) is the definitive source and a must-read for anyone interested in this topic. It details the problem Twitter faced and their design choices.
+* **UUID tools**: This is a practical, interactive [web tool](https://www.uuidtools.com) that allows you to generate and decode different types of UUIDs. It's a great way to visually understand the bit-level composition of various ID formats.
 
 📚 **References**
-* [Twitter Snowflake paper](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake-a-64-bit-unique-id-generator)
-* [ULID Proposal](https://github.com/ulid/spec)
-* [uuid.tools](https://www.uuidtools.com/)
+* [Twitter Snowflake paper](https://blog.x.com/engineering/en_us/a/2010/announcing-snowflake)
+* [ULID Proposal](https://github.com/ulid/javascript)
+* [uuid.tools](https://www.uuidtools.com)
